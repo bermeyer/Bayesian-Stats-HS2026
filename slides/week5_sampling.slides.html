@@ -7458,7 +7458,7 @@ $$\def\GP{\mathcal{GP}}$$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Working with distributions often involves integrals:</p>
 <ul>
-<li>Expectation values: $\E[f(\vec x)] = \int f(\vec x)p(\vec x)\dd x^n$</li>
+<li>Expectation values: $E[f(\vec x)] = \int f(\vec x)p(\vec x)\dd x^n$</li>
 <li>Marginal distributions: $p(\vec x) = \int p(\vec x, \vec y)\dd y^n$</li>
 </ul>
 <p>How would you evaluate these integrals numerically?</p>
@@ -7556,6 +7556,7 @@ $$</p>
 <p>If we have $N$ samples $\vec x_i\sim p$, we can approximate $\Phi$ as
 $$
     \hat\Phi = \frac{1}{N}\sum_i f(\vec x_i)
+
 $$</p>
 </div>
 </div>
